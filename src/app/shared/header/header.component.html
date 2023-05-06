@@ -1,5 +1,5 @@
 <!-- TAGLINE START-->
-<div class="tagline bg-light" *ngIf="sliderTopbar == true">
+<!-- <div class="tagline bg-light" *ngIf="sliderTopbar == true">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- TAGLINE END-->
 
 <!-- Navbar STart -->
@@ -42,11 +42,12 @@
     <!-- Logo container-->
     <div>
       <a class="logo" routerLink="/index" *ngIf="navClass !== 'nav-light'">
-        <img src="assets/images/logo-dark.png" class="l-dark logo-light-mode" height="24" alt="">
-        <img src="assets/images/logo-light.png" class="logo-dark-mode" height="24" alt="">
+        <!-- <img src="assets/images/logo-dark.png" class="l-dark logo-light-mode" height="24" alt="">
+        <img src="assets/images/logo-light.png" class="logo-dark-mode" height="24" alt=""> -->
+        Hi-Tech
       </a>
 
-      <ul class="buy-button list-inline mb-0" *ngIf="shopPages == true">
+     <!--  <ul class="buy-button list-inline mb-0" *ngIf="shopPages == true">
         <li class="list-inline-item mb-0">
           <div class="dropdown" ngbDropdown>
             <button type="button" class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2" ngbDropdownToggle
@@ -221,7 +222,6 @@
                     <div class="col-lg-6 col-md-5">
                       <img src="assets/images/course/online/ab02.jpg" class="img-fluid" alt="">
                     </div>
-                    <!--end col-->
 
                     <div class="col-lg-6 col-md-7">
                       <form class="login-form p-4">
@@ -236,7 +236,6 @@
                               </div>
                             </div>
                           </div>
-                          <!--end col-->
 
                           <div class="col-lg-12">
                             <div class="mb-3">
@@ -247,7 +246,6 @@
                               </div>
                             </div>
                           </div>
-                          <!--end col-->
 
                           <div class="col-lg-12">
                             <div class="d-flex justify-content-between">
@@ -261,49 +259,45 @@
                                   class="text-dark fw-bold">Forgot password ?</a></p>
                             </div>
                           </div>
-                          <!--end col-->
 
                           <div class="col-lg-12 mb-0">
                             <div class="d-grid">
                               <button class="btn btn-primary">Sign in</button>
                             </div>
                           </div>
-                          <!--end col-->
 
                           <div class="col-12 text-center">
                             <p class="mb-0 mt-3"><small class="text-dark me-2">Don't have an account ?</small> <a
                                 routerLink="/auth-signup" class="text-dark fw-bold">Sign Up</a></p>
                           </div>
-                          <!--end col-->
                         </div>
-                        <!--end row-->
                       </form>
                     </div>
-                    <!--end col-->
                   </div>
-                  <!--end row-->
                 </div>
-                <!--end container-->
               </div>
             </div>
           </div>
         </ng-template>
-      </ul>
+      </ul> -->
 
       <a class="logo" routerLink="/index" *ngIf="navClass === 'nav-light'">
-        <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-        <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+        <!-- <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+        <img src="assets/images/logo-light.png" class="l-light" height="24" alt=""> -->
       </a>
     </div>
 
     <span *ngIf="!buttonList && !isdeveloper && !shopPages">
       <div class="buy-button">
-        <ng-template [ngIf]="navClass === 'nav-light'">
+        <!-- <ng-template [ngIf]="navClass === 'nav-light'">
           <a href="javascript: void(0);" class="btn btn-primary login-btn-primary">Buy Now</a>
           <a href="javascript: void(0);" class="btn btn-light login-btn-light">Buy Now</a>
-        </ng-template>
+        </ng-template> -->
         <ng-template [ngIf]="navClass !== 'nav-light'">
-          <a href="javascript: void(0);" class="btn btn-primary">Buy Now</a>
+          <a href="/auth-login" class="btn btn-primary">Login</a>
+          <!-- <a class=" mx-4">
+            <i-feather id="dark-mode-btn" name="sun" class="fea icon-sm icons"></i-feather>
+          </a> -->
         </ng-template>
       </div>
     </span>
@@ -327,9 +321,10 @@
       <!-- Navigation Menu-->
       <ul class="navigation-menu" [class]="navClass">
         <li><a routerLink="/" class="nav-link-ref">Home</a></li>
+        <li><a class="nav-link-ref" routerLink="/index-portfolio">Portfolio </a></li>
         <li><a class="nav-link-ref" routerLink="/index-blog">Blog </a></li>
-        <li><a class="nav-link-ref" routerLink="/index-services">Service</a></li>
-        <li><a class="nav-link-ref" routerLink="/page-aboutus"> About Us</a></li>
+        <!-- <li><a class="nav-link-ref" routerLink="/index-services">Service</a></li> -->
+        <!-- <li><a class="nav-link-ref" routerLink="/page-aboutus"> About Us</a></li> -->
         <li><a class="nav-link-ref" routerLink="/page-contact-one">Contact Us</a></li>
 
         <!--<li class="has-submenu">
@@ -631,7 +626,7 @@
       </ul>
       <!--end navigation menu-->
       <div class="buy-menu-btn d-none">
-        <a href="javascript: void(0);" target="_blank" class="btn btn-primary">Buy Now</a>
+        <a href="javascript: void(0);" class="btn btn-primary">Login</a>
       </div>
       <!--end login button-->
       <!--end login button-->

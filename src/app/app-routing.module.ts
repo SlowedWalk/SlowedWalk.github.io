@@ -8,7 +8,7 @@ import { AccountProfileComponent } from './core/components/account-profile/accou
 import { AccountSettingComponent } from './core/components/account-setting/account-setting.component';
 import { AccountWorksComponent } from './core/components/account-works/account-works.component';
 import { IndexBlogComponent } from './core/components/index-blog/index-blog.component';
-import { IndexComponent } from './core/components/index/index.component';
+import { IndexPersonalComponent } from './core/components/index/index.component';
 import { MasterPageComponent } from './core/components/master-page/master-page.component';
 import { PageAboutusTwoComponent } from './core/components/page-aboutus-two/page-aboutus-two.component';
 import { PageAboutusComponent } from './core/components/page-aboutus/page-aboutus.component';
@@ -29,11 +29,11 @@ const routes: Routes = [
     path: '',
     component: MasterPageComponent,
     children: [
-      { path: '', component: IndexComponent },
+      { path: '', component: IndexPersonalComponent },
       { path: 'account-profile', component: AccountProfileComponent },
       { path: 'account-setting', component: AccountSettingComponent },
       { path: 'account-works', component: AccountWorksComponent },
-      { path: 'index', component: IndexComponent },
+      { path: 'index', component: IndexPersonalComponent },
 
       { path: 'index-services', component: IndexServicesComponent },
       { path: 'index-blog', component: IndexBlogComponent },

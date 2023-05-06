@@ -36,7 +36,7 @@ import { EmailAlertComponent } from './email/email-alert/email-alert.component';
 import { EmailConfirmationComponent } from './email/email-confirmation/email-confirmation.component';
 import { EmailInvoiceComponent } from './email/email-invoice/email-invoice.component';
 import { EmailPasswordResetComponent } from './email/email-password-reset/email-password-reset.component';
-import { IndexComponent } from './core/components/index/index.component';
+import { IndexPersonalComponent } from './core/components/index/index.component';
 import { PageAboutusComponent } from './core/components/page-aboutus/page-aboutus.component';
 import { PageAboutusTwoComponent } from './core/components/page-aboutus-two/page-aboutus-two.component';
 import { PageBlogListComponent } from './core/components/page-blog-list/page-blog-list.component';
@@ -77,7 +77,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     EmailConfirmationComponent,
     EmailInvoiceComponent,
     EmailPasswordResetComponent,
-    IndexComponent,
+    IndexPersonalComponent,
     IndexServicesComponent,
     IndexBlogComponent,
     PageAboutusComponent,

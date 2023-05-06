@@ -7,7 +7,6 @@ import { ScrollspyDirective } from './scrollspy.directive';
 import { FeatherModule } from 'angular-feather';
 
 import { ClientsLogoComponent } from './clients-logo/clients-logo.component';
-import { ServicesComponent } from './services/services.component';
 import { FeaturesComponent } from './features/features.component';
 import { BlogComponent } from './blog/blog.component';
 
@@ -15,7 +14,6 @@ import { BlogComponent } from './blog/blog.component';
   declarations: [
     ScrollspyDirective,
     ClientsLogoComponent,
-    ServicesComponent,
     FeaturesComponent,
     BlogComponent,
   ],
@@ -28,7 +26,6 @@ import { BlogComponent } from './blog/blog.component';
   exports: [ 
     ScrollspyDirective,
     ClientsLogoComponent, 
-    ServicesComponent, 
     FeaturesComponent, 
     BlogComponent, 
   ]
