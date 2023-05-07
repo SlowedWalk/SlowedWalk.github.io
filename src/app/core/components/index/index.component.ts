@@ -32,7 +32,7 @@ export class IndexPersonalComponent implements OnInit {
 
   workList = [
     {
-      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/go_africa_learning.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/go_africa_invest.png',
       title: 'GO Africa Investment',
       link: 'https://go-africa.io',
       category: 'Blockchain'
@@ -113,7 +113,7 @@ export class IndexPersonalComponent implements OnInit {
    */
    blogData = [
     {
-      image: "assets/images/blog/mobile-app.jpg",
+      image: "https://mekeng-afaka-portfolio.s3.amazonaws.com/images/mobile-app.jpg",
       title: "Design your apps in your own way",
       like: "33",
       message: "08",
@@ -121,7 +121,7 @@ export class IndexPersonalComponent implements OnInit {
       date: "13th August, 2019"
     },
     {
-      image: "assets/images/blog/it.jpg",
+      image: "https://mekeng-afaka-portfolio.s3.amazonaws.com/images/it.jpg",
       title: "How IT is changing the world as we know it",
       like: "33",
       message: "08",
@@ -129,7 +129,7 @@ export class IndexPersonalComponent implements OnInit {
       date: "13th August, 2019"
     },
     {
-      image: "assets/images/blog/microservices_1.jpg",
+      image: "https://mekeng-afaka-portfolio.s3.amazonaws.com/images/microservices_1.jpg",
       title: "Discover the world of Microservices ",
       like: "33",
       message: "08",
