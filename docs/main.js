@@ -2419,31 +2419,31 @@ class IndexPersonalComponent {
     this._lightbox = _lightbox;
     this._album = [];
     this.workList = [{
-      image: '../../../../assets/images/personal/go_africa_invest.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/go_africa_learning.png',
       title: 'GO Africa Investment',
       link: 'https://go-africa.io',
       category: 'Blockchain'
     }, {
-      image: '../../../../assets/images/personal/go_africa_learning.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/go_africa_learning.png',
       title: 'GO Africa Learning',
       link: 'https://learning.go-africa.io',
       category: 'Microservices'
     }, {
-      image: '../../../../assets/images/personal/react_estate.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/react_estate.png',
       title: 'React Estate',
       link: 'https://react-estate-git-main-slowedwalk.vercel.app',
       category: 'React'
     }, {
-      image: '../../../../assets/images/personal/airbnb_clone.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/airbnb_clone.png',
       title: 'Smart Immo',
       link: 'https://smart-immo.vercel.app',
       category: 'NextJs'
     }, {
-      image: '../../../../assets/images/personal/e-commerce.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/e-commerce.png',
       title: 'Ecommerce Website',
       category: 'NextJs'
     }, {
-      image: '../../../../assets/images/personal/expense_tracker.png',
+      image: 'https://mekeng-afaka-portfolio.s3.amazonaws.com/images/expense_tracker.png',
       title: 'Speech Expense Tracker',
       category: 'React'
     }];
@@ -2769,7 +2769,7 @@ IndexPersonalComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf, _angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterLink, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_6__.CarouselComponent, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_6__.CarouselSlideDirective, angular_feather__WEBPACK_IMPORTED_MODULE_7__.FeatherComponent, _nicky_lenaers_ngx_scroll_to__WEBPACK_IMPORTED_MODULE_8__.ScrollToDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgForm, ngx_typed_js__WEBPACK_IMPORTED_MODULE_10__.NgxTypedJsComponent, _shared_clients_logo_clients_logo_component__WEBPACK_IMPORTED_MODULE_1__.ClientsLogoComponent, _shared_blog_blog_component__WEBPACK_IMPORTED_MODULE_2__.BlogComponent],
-  styles: [".backgroung_img[_ngcontent-%COMP%] {\n    background-image: url('contact-detail.jpg');\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    height: 100vh;\n    width: 100%;    \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwyQ0FBOEU7SUFDOUUsNEJBQTRCO0lBQzVCLHNCQUFzQjtJQUN0QiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLFdBQVc7QUFDZiIsImZpbGUiOiJpbmRleC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJhY2tncm91bmdfaW1nIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3BlcnNvbmFsL2NvbnRhY3QtZGV0YWlsLmpwZ1wiKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgd2lkdGg6IDEwMCU7ICAgIFxufSJdfQ== */\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvY29yZS9jb21wb25lbnRzL2luZGV4L2luZGV4LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwyQ0FBOEU7SUFDOUUsNEJBQTRCO0lBQzVCLHNCQUFzQjtJQUN0QiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLFdBQVc7QUFDZjtBQUNBLGdwQkFBZ3BCIiwic291cmNlc0NvbnRlbnQiOlsiLmJhY2tncm91bmdfaW1nIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuLi8uLi8uLi8uLi9hc3NldHMvaW1hZ2VzL3BlcnNvbmFsL2NvbnRhY3QtZGV0YWlsLmpwZ1wiKTtcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgd2lkdGg6IDEwMCU7ICAgIFxufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
+  styles: [".backgroung_img[_ngcontent-%COMP%] {\n    background-image: url(\"https://mekeng-afaka-portfolio.s3.amazonaws.com/images/contact-detail.jpg\");\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    height: 100vh;\n    width: 100%;    \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrR0FBa0c7SUFDbEcsNEJBQTRCO0lBQzVCLHNCQUFzQjtJQUN0QiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLFdBQVc7QUFDZiIsImZpbGUiOiJpbmRleC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJhY2tncm91bmdfaW1nIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJodHRwczovL21la2VuZy1hZmFrYS1wb3J0Zm9saW8uczMuYW1hem9uYXdzLmNvbS9pbWFnZXMvY29udGFjdC1kZXRhaWwuanBnXCIpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICB3aWR0aDogMTAwJTsgICAgXG59Il19 */\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvY29yZS9jb21wb25lbnRzL2luZGV4L2luZGV4LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrR0FBa0c7SUFDbEcsNEJBQTRCO0lBQzVCLHNCQUFzQjtJQUN0QiwyQkFBMkI7SUFDM0IsYUFBYTtJQUNiLFdBQVc7QUFDZjtBQUNBLHdxQkFBd3FCIiwic291cmNlc0NvbnRlbnQiOlsiLmJhY2tncm91bmdfaW1nIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJodHRwczovL21la2VuZy1hZmFrYS1wb3J0Zm9saW8uczMuYW1hem9uYXdzLmNvbS9pbWFnZXMvY29udGFjdC1kZXRhaWwuanBnXCIpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICB3aWR0aDogMTAwJTsgICAgXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
 /***/ }),
