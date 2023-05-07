@@ -2419,31 +2419,31 @@ class IndexPersonalComponent {
     this._lightbox = _lightbox;
     this._album = [];
     this.workList = [{
-      image: 'assets/images/personal/go_africa_invest.png',
+      image: '../../../../assets/images/personal/go_africa_invest.png',
       title: 'GO Africa Investment',
       link: 'https://go-africa.io',
       category: 'Blockchain'
     }, {
-      image: 'assets/images/personal/go_africa_learning.png',
+      image: '../../../../assets/images/personal/go_africa_learning.png',
       title: 'GO Africa Learning',
       link: 'https://learning.go-africa.io',
       category: 'Microservices'
     }, {
-      image: 'assets/images/personal/react_estate.png',
+      image: '../../../../assets/images/personal/react_estate.png',
       title: 'React Estate',
       link: 'https://react-estate-git-main-slowedwalk.vercel.app',
       category: 'React'
     }, {
-      image: 'assets/images/personal/airbnb_clone.png',
+      image: '../../../../assets/images/personal/airbnb_clone.png',
       title: 'Smart Immo',
       link: 'https://smart-immo.vercel.app',
       category: 'NextJs'
     }, {
-      image: 'assets/images/personal/e-commerce.png',
+      image: '../../../../assets/images/personal/e-commerce.png',
       title: 'Ecommerce Website',
       category: 'NextJs'
     }, {
-      image: 'assets/images/personal/expense_tracker.png',
+      image: '../../../../assets/images/personal/expense_tracker.png',
       title: 'Speech Expense Tracker',
       category: 'React'
     }];
